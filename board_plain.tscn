@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dp3pv1tje2m3e"]
+
+[ext_resource type="PackedScene" uid="uid://k5wmihlqcqwg" path="res://board-plain.blend" id="1_wiwk4"]
+[ext_resource type="Script" uid="uid://bikhwb6mnpwp7" path="res://BoardPlain.cs" id="2_27wmm"]
+
+[node name="board-plain" unique_id=625397181 instance=ExtResource("1_wiwk4")]
+script = ExtResource("2_27wmm")

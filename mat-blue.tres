@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://fcvvlw5rnid7"]
+
+[resource]
+resource_name = "mat-blue"
+cull_mode = 2
+albedo_color = Color(0.22902009, 0.12307469, 1, 1)
+metallic = 0.32307693
+roughness = 0.6076923

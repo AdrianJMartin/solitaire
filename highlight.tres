@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dujti5680enk"]
+
+[resource]
+resource_name = "highlight"
+cull_mode = 2
+albedo_color = Color(0.90633535, 0.86252844, 0.4097154, 1)
+metallic = 0.9227273
+roughness = 0.5
