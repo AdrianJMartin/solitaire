@@ -1,0 +1,16 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "C# Godot Debug",
+                "type": "coreclr",
+                "request": "launch",
+                "preLaunchTask": "build",
+                "program": "godot-mono",
+            "args": ["--path", "${workspaceFolder}"],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}   
