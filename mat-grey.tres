@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c70e70gfyysdi"]
+
+[resource]
+resource_name = "mat-grey"
+cull_mode = 2
+albedo_color = Color(0.64274853, 0.4900896, 0.5505201, 1)
+metallic = 0.32307693
+roughness = 0.6076923

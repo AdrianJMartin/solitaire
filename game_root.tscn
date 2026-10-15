@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cqgbywt5uc8oy"]
 
 [ext_resource type="PackedScene" uid="uid://dp3pv1tje2m3e" path="res://board_plain.tscn" id="1_xj5yv"]
+[ext_resource type="Script" uid="uid://bacymkvbtvygt" path="res://BoardStyleControl.cs" id="2_pjpa4"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xj5yv"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -24,6 +25,24 @@ transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545
 shadow_enabled = true
 
 [node name="board-plain" parent="." unique_id=625397181 instance=ExtResource("1_xj5yv")]
+BoardStyle = 0
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=219207297]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 3, 5, -3)
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 5, 0)
+
+[node name="BoardStyleControl" type="VBoxContainer" parent="." unique_id=752303759]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_pjpa4")
+
+[node name="boardStyleEnglish" type="Button" parent="BoardStyleControl" unique_id=1639524876]
+layout_mode = 2
+text = "English"
+
+[node name="boardStyleEuropean" type="Button" parent="BoardStyleControl" unique_id=1905352853]
+layout_mode = 2
+text = "European"
+
+[node name="boardStyleCustom" type="Button" parent="BoardStyleControl" unique_id=1431134808]
+layout_mode = 2
+text = "Custom"
