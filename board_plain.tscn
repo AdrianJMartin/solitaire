@@ -2,6 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://k5wmihlqcqwg" path="res://board-plain.blend" id="1_wiwk4"]
 [ext_resource type="Script" uid="uid://bikhwb6mnpwp7" path="res://BoardPlain.cs" id="2_27wmm"]
+[ext_resource type="PackedScene" uid="uid://c1d7i3n4i18a1" path="res://marble-with-animation.tscn" id="3_k8wws"]
 
 [node name="board-plain" unique_id=625397181 instance=ExtResource("1_wiwk4")]
 script = ExtResource("2_27wmm")
+MarbleScene = ExtResource("3_k8wws")
